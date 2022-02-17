@@ -1,41 +1,21 @@
 
-.cabecalho{    
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
-}
-header{
+.cabecalho{
+    height: 50px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-bottom:#33478E solid 3px;
-    display:block;
 }
-.logo{
-    position: relative;
-    width: 50px;
-    height: 32px;    
+.cabecalho-navegacao{
+    display:inline
 }
-nav{
-    position: absolute;
-    top: 20px;
-    right: 0;
-    padding-right: 20px;
-}
-nav li{
-    display: inline;
-    margin: 0 0 0 30px;
-    
-}
-nav a{
 
-    color:#000000;
-    font: size 20px;
-    text-decoration: none;
-}
 main{
     width: 1200px;
     margin: 0 auto;
 }
 .introducao{
+    
     display: inline-block;
     position: relative;
     width: 600px;
@@ -43,7 +23,9 @@ main{
     margin: auto;
 }
 h1{
-    font-size:35px;
+    font-size:52px;
+    
+    font-family: 'Epilogue', sans-serif;
     color:#33478E;
     margin-top: 100px;
 
@@ -51,19 +33,42 @@ h1{
 .descricao{
     margin-top: 50px;
     font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
 }
 .botaoIntroducao{
     border-radius: 5px;
     border-style: none;
     background-image: linear-gradient(180deg,  #92a4e4,#0a184d);
     color: #FFFFFF;
-    width: 170px;
-    height: 40px;
-    font-size:10px;
+    width: 242px;
+    height: 51px;
+    font-weight:bolder;
+    font-size:14px;
+    font-family: 'Epilogue', sans-serif;
     margin-top: 50px;
+    
 }
 .ilustracao{
     width: 493px;
     height: 517px;
     margin:35px;
 }
+.subtitulo{
+    font-size: 44px;
+    font-family: 'Epilogue', sans-serif;
+    color:#33478E;
+
+}
+.verde{
+    display: inline;
+    margin-left: 60px;
+}
+
+#projetos{
+
+    position: relative;
+    height: 230px;
+    width: 330px;
+    margin:  30px;
+}
+

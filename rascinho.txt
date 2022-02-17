@@ -1,19 +1,15 @@
-<main>
-        <h1>RAPHAELA ALIANÇA</h1>
-        <P>
-            Olá !
-            Seja bem vindo(a) ao meu espaço.
-        </P>
-        <P>
-            Aqui irei falar um pouco sobre mim, e  mostrar os projetos desenvolvido ao longo do que fui aprendendo.
-        </P>
-
-        <p>
-            Espero mostrar meu potencial atravez desafios posto por mim mesma, dando o meu melhor a cada codigo na expectativa que você possa interagir em todos os projetos.
+.logo{
+    width: 50px;
+    height: 32px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
     
-        </p>
+}
+nav a{
 
-        <img src="imagem/ilustracao.svg" alt="">
-        <button>CONHEÇA OS MEUS PROJETOS</button>
-        
-    </main>
+    color:#000000;
+    font: size 20px;
+    text-decoration: none;
+}
