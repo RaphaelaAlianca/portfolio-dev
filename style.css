@@ -1,13 +1,20 @@
-
+header{
+    width: 1200px;
+    margin: 0 auto;
+}
 .cabecalho{
+    width: 1200px;
+    margin: 0 auto;
     height: 50px;    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom:#33478E solid 3px;
 }
-.cabecalho-navegacao{
-    display:inline
+.cabecalho-navegacao li ,a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+
 }
 
 main{
@@ -63,12 +70,31 @@ h1{
     display: inline;
     margin-left: 60px;
 }
-
-#projetos{
-
-    position: relative;
-    height: 230px;
-    width: 330px;
-    margin:  30px;
+.projetos li{
+    vertical-align: top;
+    display: inline-block;
+    width: 25%;
+    margin:1% 4%;
+    height: 275px;
+    box-shadow: 0px 20px 20px #01500140;
+    background: #f1f3fa;
+    border-radius: 10px;
+    
 }
-
+h3{
+    margin: 10px;
+    text-align: center;
+    font-size:18px ;
+    font-family: 'Epilogue', sans-serif;
+}
+.img-projeto{
+    margin: 0 10%;
+    width: 80%;
+}
+.descricao-projeto{
+    margin: 5px 5px;
+    font-family: 'Epilogue', sans-serif;
+    text-align:left;
+    font-size:12px ;
+    color: #000000;
+}
