@@ -31,30 +31,34 @@ main{
 }
 h1{
     font-size:52px;
-    
     font-family: 'Epilogue', sans-serif;
     color:#33478E;
     margin-top: 100px;
 
 }
 .descricao{
+    text-indent: 1.5em;
     margin-top: 50px;
     font-size: 16px;
     font-family: 'Epilogue', sans-serif;
 }
-.botaoIntroducao{
+.botao-projetos{
     border-radius: 5px;
     border-style: none;
     background-image: linear-gradient(180deg,  #92a4e4,#0a184d);
-    color: #FFFFFF;
     width: 242px;
     height: 51px;
+    margin-top: 50px;
+    text-decoration: none;    
+}
+.botao-projetos a{
+    text-decoration: none;
+    color: #FFFFFF;
     font-weight:bolder;
     font-size:14px;
     font-family: 'Epilogue', sans-serif;
-    margin-top: 50px;
-    
 }
+
 .ilustracao{
     width: 493px;
     height: 517px;
@@ -65,36 +69,4 @@ h1{
     font-family: 'Epilogue', sans-serif;
     color:#33478E;
 
-}
-.verde{
-    display: inline;
-    margin-left: 60px;
-}
-.projetos li{
-    vertical-align: top;
-    display: inline-block;
-    width: 25%;
-    margin:1% 4%;
-    height: 275px;
-    box-shadow: 0px 20px 20px #01500140;
-    background: #f1f3fa;
-    border-radius: 10px;
-    
-}
-h3{
-    margin: 10px;
-    text-align: center;
-    font-size:18px ;
-    font-family: 'Epilogue', sans-serif;
-}
-.img-projeto{
-    margin: 0 10%;
-    width: 80%;
-}
-.descricao-projeto{
-    margin: 5px 5px;
-    font-family: 'Epilogue', sans-serif;
-    text-align:left;
-    font-size:12px ;
-    color: #000000;
 }
