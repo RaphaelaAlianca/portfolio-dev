@@ -1,32 +1,31 @@
 .verde{
     display: inline;
-    margin-left: 60px;
+    margin-left: 10%;
 }
 
 .projetos li{
     display:inline-block;
 	text-align: center;
 	vertical-align: top;
-    width:24%;
-	margin:2% 3.7%;
+    width:25%;
+	margin:2% 3.8%;
 	box-sizing: border-box;
     background: linear-gradient(  #FEFEFE,#faf5f5);
 	border-radius: 10px;
     transition:1s ease;
 }
 .projetos li:hover {
-    position: fixed;
+    position: relative;
+    width: 25.1%;
     transition:ease-in-out;
     transition: 500ms linear;
     box-shadow: 0px 15px 20px #8b7be6;
-    width: 25%;
 
 }
-h3{
+h4{
     display: inline;
     text-align: center;
     font-size:18px ;
-    font-family: 'Epilogue', sans-serif;
 }
 .img-projeto{
     margin: 5% auto;
