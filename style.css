@@ -1,89 +1,155 @@
-body{
+body {
     font-family: 'Epilogue', sans-serif;
 }
-header{
-    width: 1200px;
+
+header {
     margin: 0 auto;
 }
-.cabecalho{
-    width: 1200px;
-    margin: 0 auto;
-    height: 50px;    
+
+.container__fixo {
+    background-image: linear-gradient(180deg, #f1f3fa, #ffffff);
+    width: 100%;
+    position: fixed;
+    display: block;
+}
+
+.cabecalho {
+    width: 95%;
+    margin: 1% auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.cabecalho-navegacao li ,a{
+
+.cabecalho-navegacao li,
+a {
     text-decoration: none;
     display: inline-block;
-    margin: 0 10px;
-
+    margin: 0 1em;
 }
 
-main{
-    width: 1200px;
+hr {
+    margin: 0;
+    width: auto;
+}
+
+main {
+    display: block;
+    width: 95%;
     margin: 0 auto;
 }
-.introducao{
-    
-    display: inline-block;
-    position: relative;
-    width: 600px;
-    vertical-align: top;
-    margin: auto;
-}
-h1{
-    font-size:52px;
-    
-    color:#33478E;
-    margin-top: 100px;
 
+.introducao {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin: 5%;
 }
-.descricao{
+
+h1 {
+    font-size: 2.5em;
+    color: #33478E;
+    margin: 2em auto 0.5em;
+}
+
+.descricao {
+    margin-top: 10%;
     text-indent: 1.5em;
-    margin-top: 50px;
-    font-size: 16px;
+    line-height: 1.5;
+    font-size: 1em;
 }
-.botao-projetos{
+
+.botao-projetos {
     border-radius: 5px;
     border-style: none;
-    background-image: linear-gradient(180deg,  #92a4e4,#0a184d);
-    width: 242px;
-    height: 51px;
-    margin-top: 50px;
-    text-decoration: none;    
+    background-image: linear-gradient(180deg, #92a4e4, #0a184d);
+    width: auto;
+    margin: 10% 20%;
+    text-decoration: none;
 }
-.botao-projetos a{
+
+.botao-projetos a {
     text-decoration: none;
     color: #FFFFFF;
-    font-weight:bolder;
-    font-size:1em;
+    font-weight: bolder;
+    font-size: 1em;
+    margin: 5% auto;
 }
 
-.ilustracao{
-    width: 493px;
-    height: 517px;
-    margin:35px;
+.ilustracao {
+    width: 30%;
+    height: auto;
+    margin: 5% 9%;
 }
-.subtitulo{
-    font-size: 44px;
-    color:#33478E;
 
+.subtitulo {
+    font-size: 2.5em;
+    color: #33478E;
 }
-.laranja{
+
+.laranja {
     display: inline;
     margin-left: 6%;
 }
-.linguagens{
-    margin: 3% 15%;
+
+.linguagens {
+    margin: 3% 15% 15%;
     width: 70%;
 }
-.linguagens p{
+
+.linguagens p {
     font-size: 1.3em;
     font-weight: bold;
-    text-transform:uppercase
+    text-transform: uppercase
 }
-.linguagens img{
+
+.linguagens img {
     margin: 3% 10%;
-    
+}
+
+footer {
+    height: 100px;
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+    background-image: linear-gradient(180deg, #ffffff, #566188);
+}
+
+.rodape img {
+    margin: 1rem auto;
+    width: 2em;
+    height: 2em;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    header {
+        margin: auto;
+    }
+    main,
+    .logo {
+        width: auto;
+    }
+    .cabecalho-navegacao a {
+        margin: auto;
+    }
+    .cabecalho,
+    .introducao,
+    .ilustracao {
+        width: 100%;
+        margin: auto;
+    }
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        margin: 1.5em auto 0.5em;
+    }
+    .linguagens img {
+        width: 2em;
+    }
 }
