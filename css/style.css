@@ -4,7 +4,8 @@ header {
 
 body {
     background: #f1f3fa;
-    height: 100%;
+    height: auto;
+    width: auto;
     font-family: 'Epilogue', sans-serif;
 }
 
@@ -67,9 +68,9 @@ main {
 }
 
 .introducao {
-    display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    display: inline-flex;
+    width: 100%;
 }
 
 h1 {
