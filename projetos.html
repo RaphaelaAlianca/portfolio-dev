@@ -1,49 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="projetos.css">
-    <title>projeto</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+
+    <title>Raphaela Aliança</title>
 </head>
 
 <body>
     </head>
     <header>
-        <section class="container__fixo">
-            <div class="cabecalho">
-                <img class="logo" src="./img/logo.png">
-                <nav class="cabecalho-navegacao">
-                    <ul>
-                        <li>
-                            <a href="index.html">  Sobre </a>
-                        </li>
-
-                        <li>
-                            <a href="projetos.html"> Projetos </a>
-                        </li>
-
-                        <li>
-                            <a href="">  Contato </a>
-                        </li>
-                    </ul>
-                </nav>
+        <nav class="cabecalho-navegacao">
+            <img class="logo" src="./img/logo.png">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            <hr>
-        </section>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://drive.google.com/drive/folders/1J6_S9QsW2wJsv6E9mYNi1RTvKUISvqB7?usp=sharing" target="_blank">Certificados</a></li>
+                <li><a href="#contatos">Contato</a></li>
+            </ul>
+
+            </div>
+        </nav>
+        <hr>
     </header>
     <main>
 
         <h2 class="subtitulo">Projetos</h2>
-        <img class="verde" src="./img/retaVerde.png">
 
         <div class="projetos">
-            <li class="lista-projetos">
+            <li class="lista__projetos">
                 <a href="https://raphaelaalianca.github.io/site-ada/" target="_blank">
                     <img class="img-projeto" src="./img/site-ada.png">
                 </a>
@@ -51,7 +46,7 @@
                 <a href="https://github.com/RaphaelaAlianca/site-ada" target="_blank"><img class="icons" src="./img/ghub.svg"></a>
             </li>
 
-            <li class="lista-projetos">
+            <li class="lista__projetos">
                 <a href="https://raphaelaalianca.github.io/Barbearia-alura/" target="_blank">
                     <img class="img-projeto" src="./img/barbearia-alura.png">
                 </a>
@@ -59,7 +54,7 @@
                 <a href="https://github.com/RaphaelaAlianca/Barbearia-alura" target="_blank"><img class="icons" src="./img/ghub.svg"></a>
             </li>
 
-            <li class="lista-projetos">
+            <li class="lista__projetos">
                 <a href="https://makecode.microbit.org/_A4CDUcUvcD0z" target="_blank">
                     <img class="img-projeto" src="./img/projetp-microbite.png">
                 </a>
@@ -69,8 +64,12 @@
 
         </div>
 
-
     </main>
+    <footer>
+        <p class="copyright">© Raphaela Aliança - 2022</p>
+    </footer>
+    <script src="script.js"></script>
+
 </body>
 
 </html>

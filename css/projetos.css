@@ -1,0 +1,49 @@
+.subtitulo {
+    margin: 8.5vh;
+}
+
+.projetos li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 25%;
+    margin: 5vh 6.5vh;
+    box-sizing: border-box;
+    background: linear-gradient( #FEFEFE, #faf5f5);
+    border-radius: 10px;
+    transition: 1s ease;
+}
+
+.projetos li:hover {
+    position: relative;
+    width: 25.1%;
+    transition: ease-in-out;
+    transition: 500ms linear;
+    box-shadow: 0px 15px 20px #8b7be6;
+}
+
+h4 {
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+}
+
+.img-projeto {
+    margin: 5% auto;
+    width: 97%;
+}
+
+
+/*icons*/
+
+.icons {
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+}

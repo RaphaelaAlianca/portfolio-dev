@@ -3,59 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
     <title>Raphaela Aliança</title>
 </head>
 
 <body>
     <header>
-        <section class="container__fixo">
-            <div class="cabecalho">
-                <img class="logo" src="./img/logo.png">
-                <nav class="cabecalho-navegacao">
-                    <ul>
-                        <li>
-                            <a href="index.html">  Sobre </a>
-                        </li>
-
-                        <li>
-                            <a href="projetos.html"> Projetos </a>
-                        </li>
-
-                        <li>
-                            <a href="">  Contato </a>
-                        </li>
-                    </ul>
-                </nav>
+        <nav class="cabecalho-navegacao">
+            <img class="logo" src="./img/logo.png">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            <hr>
-        </section>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://drive.google.com/drive/folders/1J6_S9QsW2wJsv6E9mYNi1RTvKUISvqB7?usp=sharing" target="_blank">Certificados</a></li>
+                <li><a href="#contatos">Contato</a></li>
+            </ul>
+
+            </div>
+        </nav>
+        <hr>
     </header>
 
     <main>
         <section class="introducao">
-
-            <h1>RAPHAELA ALIANÇA
-            </h1>
-            <!--<img src="./img/retaRosa.png">-->
-
             <div class=" descricao">
+                <h1>RAPHAELA ALIANÇA </h1>
+
                 <p>Olá !<br> Seja bem vindo(a) ao meu espaço.</P>
                 <P>Aqui irei falar um pouco sobre mim, e mostrar os projetos desenvolvido ao longo do que fui aprendendo. </P><br>
                 <p>Espero mostrar meu potencial atravez desafios posto por mim mesma, dando o meu melhor a cada codigo na expectativa que você possa interagir em todos os projetos.</p>
+                <button><a href="projetos.html">CONHEÇA OS MEUS PROJETOS</a></button>
             </div>
-            <button class="botao-projetos"><a href="projetos.html">CONHEÇA OS MEUS PROJETOS</a></button>
-
+            <img class="ilustracao" src="./img/ilustracao.svg" alt="">
         </section>
 
-        <img class="ilustracao" src="./img/ilustracao.svg" alt="">
 
         <section class="tecnologia">
             <h2 class="subtitulo">Tecnologia</h2>
-            <!-- <img class="laranja" src="./img/retaLaranja.png" alt="">-->
 
             <div class="linguagens">
                 <p>O que estou aprendendo</p>
@@ -63,24 +54,18 @@
                 <img src="./img/css.png" alt="">
                 <img src="./img/js.png" alt="">
             </div>
-            <!--     <div class="linguagens">
-                <p>O que quero apremder</p>
-                <img src="./img/html.png" alt="">
-                <img src="./img/css.png" alt="">
-                <img src="./img/js.png" alt="">
-            </div>-->
         </section>
     </main>
-    <footer>
+    <footer id="contatos">
         <h3>Entre em contato </h3>
         <div class="rodape">
             <a href="https://www.linkedin.com/in/raphaela-alianca/" target="_blank"><img class="icons" src="./img/linkedin.svg"></a>
             <a href="https://github.com/RaphaelaAlianca" target="_blank"><img class="icons" src="./img/ghub.svg"></a>
-            <a href="https://github.com/RaphaelaAlianca/site-ada" target="_blank"><img class="icons" src="./img/discord.svg"></a>
             <a href="mailto:rapheala.alianca24@gmail.com" target="_blank"><img class="icons" src="./img/gmail.svg"></a>
         </div>
         <p class="copyright">© Raphaela Aliança - 2022</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
