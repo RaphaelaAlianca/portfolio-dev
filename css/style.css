@@ -117,21 +117,23 @@ button:hover {
     color: #33478E;
 }
 
-.linguagens {
-    margin: 3% 15% 15%;
-    width: 80%;
-}
-
-.linguagens p {
-    align-items: center;
-    font-size: 1.3rem;
+.tecnologia p {
+    margin: 2em auto 0;
+    color: #aaaaaa;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase
 }
 
+.linguagens {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% auto 16%;
+}
+
 .linguagens img {
-    align-items: center;
-    margin: 3rem 3rem;
+    width: 70px;
+    margin: 3rem 2rem 0 0;
 }
 
 footer {
