@@ -16,6 +16,7 @@ body {
 }
 
 a {
+    font-weight: 600;
     color: #23232e;
     text-decoration: none;
     transition: 0.3s;
@@ -68,24 +69,21 @@ main {
 }
 
 .introducao {
-    justify-content: space-between;
     display: inline-flex;
     width: 100%;
+}
+
+.descricao {
+    color: black;
+    margin: 5% auto;
+    line-height: 1.5;
+    font-size: 1em;
 }
 
 h1 {
     font-size: 2.5em;
     color: #33478E;
-    margin: rem auto 0.5rem;
-}
-
-.descricao {
-    color: black;
-    vertical-align: top;
-    width: 60vh;
-    margin-top: 05%;
-    line-height: 1.5;
-    font-size: 1em;
+    margin: auto 0.5rem;
 }
 
 .introducao button {
@@ -107,10 +105,14 @@ button:hover {
     margin: 5% auto;
 }
 
-.ilustracao img {
-    width: 50%;
+.ilustracao {
+    width: 100%;
     height: auto;
-    margin: 5% 9%;
+    margin: 3% 0 0 7%;
+}
+
+.ilustracao img {
+    width: 80%;
 }
 
 .subtitulo {

@@ -57,13 +57,13 @@
 
 /* ADIÇÃO PARA RESPOSIVO DO MAIN*/
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
     h1 {
         font-size: 5vh;
     }
     .ilustracao {
         position: absolute;
-        opacity: 0.2;
+        opacity: 0.4;
     }
     button {
         display: flex;
